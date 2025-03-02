@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Двери "твердый знак"</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/x-icon" href="./img/favicon-16x16.png" rel="shortcut icon">
+<link type="Image/x-icon" href="./img/favicon-16x16.png" rel="icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><img src="./img/Logo1.svg" alt="Логотип JuniorCoders"></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#aboutUs">О нас</a></li>
+                    <li><a href="#new_collection">Каталог</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-rightContent">
+                <a href="https://web.telegram.org/a/#1779149669" class="logo-media"><img src="./img/telegramLogo.svg" alt="Логотип Telegram"></a>
+                <a href="https://wa.me/79615882506" class="logo-media"><img src="./img/whatsupLogo.svg" alt="Логотип WhatsApp"></a>
+            </div>
+            <div class="rightContent">
+                <a href="#" class="logo-media"><img src="./img/phoneLogo.svg" alt="Иконка телефона"></a>
+                <p>(86131) 5-22-12</p>
+                <p>8 989 813-76-76</p>
+            </div>
+            <!-- Бургер-меню -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="hero">
+        <!-- Hero content goes here -->
+    </section>
+
+    <section class="benefits" id="aboutUs">
+        <!-- О нас: Заголовок и текстовый блок с описанием компании -->
+        <div class="div-hero-title">
+            <h2>О нас</h2>
+
+            <p>
+                <b>Производство дверей "Твердый знак" основано в 2008 году.</b>
+                Наше предприятие — одно из первых производственных предприятий в Краснодарском крае,
+                включающее в себя все циклы создания входных дверей, отвечающих требованиям европейских стандартов.
+            </p>
+
+            <p>
+                <b>Высокая надежность, износоустойчивость и современный дизайн</b> — главные свойства дверей «Твердый
+                знак».
+                Предприятие обеспечивает эти параметры на высоком уровне, используя <b>современные технологии и
+                    высокотехнологичное оборудование,</b>
+                что позволяет производить двери с лучшими показателями, пригодные к климатическим условиям разных
+                регионов России.
+                Мы используем только качественные материалы и комплектующие <b>от ведущих российских и зарубежных
+                    производителей.</b>
+            </p>
+
+            <p>
+                Выполняем заказы на двери <b>индивидуальных размеров</b> — двустворчатые, с арками, фрамугами, полками,
+                двери с терморазрывом, с увеличенным коробом и полотном, с уголком обрамления.
+                Мы всегда готовы предложить вам конструкции дверей по индивидуальному запросу, что дает возможность
+                покупателю реализовать
+                <b>практически все свои пожелания</b> при покупке дверей в жилое помещение, учреждения или офисы.
+            </p>
+
+            <p>
+                Исходя из нашего опыта и ваших предпочтений, <b>нами разработаны более 30 моделей,</b> с оптимальным
+                сочетанием формы,
+                цвета, отделки, фурнитуры и запирающих систем.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="new_collection" id="new_collection">
+        <div class="coll_title">
+            <h2 class="shiny-text">Новая коллекция</h2>
+        </div>
+        <div class="card-group" style="gap: 100px; flex-wrap: wrap; display: flex; padding: 100px">
+            <div class="card" data-full-image="./img/Твердый_знак/лагунаДверь.png">
+                <img src="./img/Твердый_знак/лагунаДверь.png" class="card-img-top" alt="Лагуна">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Лагуна с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/волнаФото.png">
+                <img src="./img/Твердый_знак/волнаФото.png" class="card-img-top" alt="Волна">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Волна с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/мечтаФото.png">
+                <img src="./img/Твердый_знак/мечтаФото.png" class="card-img-top" alt="Мечта">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Мечта с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/вымпелФото.png">
+                <img src="./img/Твердый_знак/вымпелФото.png" class="card-img-top" alt="Вымпел">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Вымпел с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/гаваньФото.png">
+                <img src="./img/Твердый_знак/гаваньФото.png" class="card-img-top" alt="Гавань">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Гавань с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/рифФото.png">
+                <img src="./img/Твердый_знак/рифФото.png" class="card-img-top" alt="Риф">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Риф с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/фрегатФото.png">
+                <img src="./img/Твердый_знак/фрегатФото.png" class="card-img-top" alt="Фрегат">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Фрегат с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/авангардФото.png">
+                <img src="./img/Твердый_знак/авангардФото.png" class="card-img-top" alt="Авангард">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Авангард с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/амратаФото.png">
+                <img src="./img/Твердый_знак/амратаФото.png" class="card-img-top" alt="Амрата">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Амрата с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/бризФото.png">
+                <img src="./img/Твердый_знак/бризФото.png" class="card-img-top" alt="Бриз">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Бриз с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/лидерФото.png">
+                <img src="./img/Твердый_знак/лидерФото.png" class="card-img-top" alt="Лидер">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Лидер с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/лидерТермоФото.png">
+                <img src="./img/Твердый_знак/лидерТермоФото.png" class="card-img-top" alt="Лидер термо">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Лидер термо с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/престижЛонгФото.png">
+                <img src="./img/Твердый_знак/престижЛонгФото.png" class="card-img-top" alt="Престиж Лонг">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Престиж Лонг с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/комфортНКфото.png">
+                <img src="./img/Твердый_знак/комфортНКфото.png" class="card-img-top" alt="Комфорт НК">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Комфорт НК с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/комфортНК5фото.png">
+                <img src="./img/Твердый_знак/комфортНК5фото.png" class="card-img-top" alt="Комфорт НК 5">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Комфорт НК 5 с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/комфортНК6фото.png">
+                <img src="./img/Твердый_знак/комфортНК6фото.png" class="card-img-top" alt="Комфорт НК 6">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Комфорт НК 6 с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/комфортНК47фото.png">
+                <img src="./img/Твердый_знак/комфортНК47фото.png" class="card-img-top" alt="Комфорт НК 47">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">Комфорт НК 47 с
+                        металлофиленками</h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/нк48фото.png">
+                <img src="./img/Твердый_знак/нк48фото.png" class="card-img-top" alt="НК 48">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">НК 48 с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/нк49.png">
+                <img src="./img/Твердый_знак/нк49.png" class="card-img-top" alt="НК 49">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">НК 49 с металлофиленками
+                    </h5>
+                </div>
+            </div>
+            <div class="card" data-full-image="./img/Твердый_знак/нк50фото.png">
+                <img src="./img/Твердый_знак/нк50фото.png" class="card-img-top" alt="НК 50">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: rgb(194, 163, 97); font-weight: bold;">НК 50 с металлофиленками
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contacts_container">
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы, не стесняйтесь обращаться!</p>
+            <div class="contact_details">
+                <div class="contact_item">
+                    <h3>Адрес</h3>
+                    <p>ул. Маршала-Жукова, 53K</p>
+                </div>
+                <div class="contact_item">
+                    <h3>Телефон</h3>
+                    <p> (86131) 5-22-12, 8 989 813-76-76</p>
+                </div>
+                <div class="contact_item">
+                    <h3>Email</h3>
+                    <p>dverieva@list.ru</p>
+                </div>
+                <div class="contact_item">
+                    <h3>Как нас найти</h3>
+                    <p>
+                        <a href="https://yandex.ru/maps/-/CHBMJNIN">Нажми на меня</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Модальное окно -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <img src="" alt="Увеличенное изображение" id="modalImage">
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
