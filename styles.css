@@ -228,13 +228,18 @@ body {
 
 /* Стили для карточек */
 .card {
-    border: 1px solid #ddd;
-    overflow: hidden;
+    width: 400px;
+    height: 600px;
+    border: none;
+    background: transparent;
+    transition: transform 0.3s ease;
     cursor: pointer;
-    transition: box-shadow 0.3s ease;
     opacity: 0;
     transform: translateX(-100px);
     transition: all 0.8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:nth-child(even) {
@@ -251,9 +256,11 @@ body {
 }
 
 .card-img-top {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
 .card-body {
